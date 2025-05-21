@@ -4,8 +4,8 @@ import json
 app = Flask(__name__)
 @app.route("/vf",methods=["GET"]) 
 def check():
-    number = "xxxx"
-    password = "xxxx"
+    number = "01067069994"
+    password = "Eslam$2020"
     url1="https://mobile.vodafone.com.eg/auth/realms/vf-realm/protocol/openid-connect/token"
     hd1={
     'Accept':'application/json, text/plain, */*',
